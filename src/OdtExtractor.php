@@ -53,7 +53,8 @@ class OdtExtractor implements ExtractorInterface
         return implode(' ', $texts);
     }
 
-    private function readZippedXML($archiveFile) {
+    private function readZippedXML($archiveFile)
+    {
         $data = '';
 
         $zip = new \ZipArchive;

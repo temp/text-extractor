@@ -58,5 +58,4 @@ class RawTextExtractor implements ExtractorInterface
 
         return $content;
     }
-
 }

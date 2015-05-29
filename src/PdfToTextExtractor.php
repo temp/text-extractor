@@ -55,5 +55,4 @@ class PdfToTextExtractor implements ExtractorInterface
 
         return $content;
     }
-
 }
